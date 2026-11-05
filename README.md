@@ -18,4 +18,4 @@ Before software, I worked as an industrial engineer at LITE-ON and Delta Electro
 
 I start the MEng in Computer Engineering at the University of Cincinnati in Spring 2027 and I'm looking for a Fall 2027 co-op in embedded systems, edge AI or iOS.
 
-[LinkedIn](https://www.linkedin.com/in/yuan-sheng-lin-0a249320a/)
+[LinkedIn](https://www.linkedin.com/in/donald-lin-0a249320a/)
