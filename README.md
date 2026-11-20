@@ -1,21 +1,20 @@
-# Hi, I'm Donald Lin
+# Donald Lin
 
-I build computer-vision systems that run on small edge devices, and I make iOS apps.
+I build edge-AI systems and native Apple software. My best work turns noisy sensor or public data into decisions people can inspect, then keeps working when the network or a data source does not.
 
-**Rescue robot dog** (M.S. thesis, Ming Chi University of Technology)
-A system that notices when someone falls and sends a quadruped robot over to them. It runs fall detection (YOLO11s) and face recognition on an NVIDIA Jetson Orin Nano at 44–48 fps. The code is private for now because the dataset contains real people's faces.
+I am an incoming MEng student in Computer Engineering at the University of Cincinnati (Spring 2027), looking for a Fall 2027 co-op in embedded systems, edge AI, or Apple-platform engineering.
 
-**Driver monitoring system** on the same Jetson board: YOLOv10n for eye closure, yawning, phone use and smoking, plus mmWave radar for heart rate and a thermal sensor.
-→ [yolo-dms-smoke](https://github.com/tel0955850213/yolo-dms-smoke) · [control experiment](https://github.com/tel0955850213/yolo-dms-yolov10-control)
+## Selected work
 
-**Apps.** I've shipped 15+ apps to the App Store on my own, including
-[PocketSpot (存起來)](https://apps.apple.com/tw/app/id6771274846),
-[Move Compass](https://apps.apple.com/us/app/move-compass/id6795955157) and
-[SentenceScore](https://apps.apple.com/us/app/sentencescore-ielts-speaking/id6782122833).
-Most of their code is in private repos.
+- [MindTheStep](https://github.com/tel0955850213/mindthestep) — LiDAR step and curb detection on iPhone. The detector runs in 1–8 ms per depth frame; 19 unit tests cover the failure modes found during street and stair testing. [Watch the 1:50 demo](https://youtu.be/XT80odwnBWA).
+- [Karteria](https://github.com/tel0955850213/Karteria) — a SwiftUI deliberate-practice app with deterministic 2-of-3 peer verification, separate trust paths for minors, CloudKit, and a Cloudflare Worker.
+- [Focus Arcana](https://github.com/tel0955850213/MacFocus) — a native macOS focus timer with a SwiftUI collection loop and an AppKit `NSPanel` desktop companion.
+- **CivicRadar** (private source) — a versioned public-data pipeline and iOS app for tracking legal and policy changes. Conflicting or incomplete records are quarantined; clients verify schema and SHA-256 digests before accepting updates.
 
-Before software, I worked as an industrial engineer at LITE-ON and Delta Electronics.
+## Engineering evidence
 
-I start the MEng in Computer Engineering at the University of Cincinnati in Spring 2027 and I'm looking for a Fall 2027 co-op in embedded systems, edge AI or iOS.
+- Custom YOLO11s fall detection on NVIDIA Jetson Orin Nano at 44–48 fps for my M.S. rescue-robot project. The repository stays private because its dataset contains real people's faces.
+- More than 15 independent App Store releases, including [PocketSpot](https://apps.apple.com/tw/app/id6771274846), [Move Compass](https://apps.apple.com/us/app/move-compass/id6795955157), and [SentenceScore](https://apps.apple.com/us/app/sentencescore-ielts-speaking/id6782122833).
+- Former industrial engineer at LITE-ON and Delta Electronics. I still approach software the same way: measure the process, identify the constraint, and make failures observable.
 
-[LinkedIn](https://www.linkedin.com/in/donald-lin-0a249320a/)
+[Portfolio](https://tel0955850213.github.io/) · [LinkedIn](https://www.linkedin.com/in/donald-lin-0a249320a/)
